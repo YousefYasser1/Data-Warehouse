@@ -1,0 +1,278 @@
+<?xml version="1.0"?>
+<AlteryxDocument yxmdVer="2022.3">
+  <Nodes>
+    <Node ToolID="1">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.DbFileInput.DbFileInput">
+        <Position x="42" y="150" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Passwords />
+          <File RecordLimit="" FileFormat="18">odb:Provider=SQLOLEDB.1;Integrated Security=SSPI;Persist Security Info=False;Initial Catalog=DataHouse;Data Source=DESKTOP-M8S72KL;Use Procedure for Prepare=1;Auto Translate=True;Packet Size=4096;Workstation ID=DESKTOP-M8S72KL;Use Encryption for Data=False;Tag with column collation when possible=False|||select DEST1.[Record ID],
+	DEST1.[File Number],
+	DEST1.[Date of Report],
+	DEST1.[Crime Date Time],
+	DEST1.Crime,
+	DEST1.[Reporting Area],
+	DEST1.Neighborhood,
+	DEST1.Location,
+	DEST1.[File Number 1],
+	DEST1.[File Number 2],
+	DEST1.Replace 
+from DEST1</File>
+          <FormatSpecificOptions>
+            <PreSQL />
+            <PreSQLOnConfig>True</PreSQLOnConfig>
+            <NoProgress>False</NoProgress>
+            <CacheData>False</CacheData>
+            <TableStyle>Quoted</TableStyle>
+            <ReadUncommitted>False</ReadUncommitted>
+            <PostSQL />
+          </FormatSpecificOptions>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText>Source=DESKTOP-M8S72KL
+Catalog=DataHouse
+Query=select DEST1.[Record ID],...</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+        <MetaInfo connection="Output">
+          <RecordInfo>
+            <Field name="Record ID" source="File: odb:Provider=SQLOLEDB.1;Integrated Security=SSPI;Persist Security Info=False;Initial Catalog=DataHouse;Data Source=DESKTOP-M8S72KL;Use Procedure for Prepare=1;Auto Translate=True;Packet Size=4096;Workstation ID=DESKTOP-M8S72KL;Use Encryption for Data=False;Tag with column collation when possible=False|||select DEST1.[Record ID],&#xA;	DEST1.[File Number],&#xA;	DEST1.[Date of Report],&#xA;	DEST1.[Crime Date Time],&#xA;	DEST1.Crime,&#xA;	DEST1.[Reporting Area],&#xA;	DEST1.Neighborhood,&#xA;	DEST1.Location,&#xA;	DEST1.[File Number 1],&#xA;	DEST1.[File Number 2],&#xA;	DEST1.Replace &#xA;from DEST1" type="Double" />
+            <Field name="File Number" size="255" source="File: odb:Provider=SQLOLEDB.1;Integrated Security=SSPI;Persist Security Info=False;Initial Catalog=DataHouse;Data Source=DESKTOP-M8S72KL;Use Procedure for Prepare=1;Auto Translate=True;Packet Size=4096;Workstation ID=DESKTOP-M8S72KL;Use Encryption for Data=False;Tag with column collation when possible=False|||select DEST1.[Record ID],&#xA;	DEST1.[File Number],&#xA;	DEST1.[Date of Report],&#xA;	DEST1.[Crime Date Time],&#xA;	DEST1.Crime,&#xA;	DEST1.[Reporting Area],&#xA;	DEST1.Neighborhood,&#xA;	DEST1.Location,&#xA;	DEST1.[File Number 1],&#xA;	DEST1.[File Number 2],&#xA;	DEST1.Replace &#xA;from DEST1" type="V_WString" />
+            <Field name="Date of Report" source="File: odb:Provider=SQLOLEDB.1;Integrated Security=SSPI;Persist Security Info=False;Initial Catalog=DataHouse;Data Source=DESKTOP-M8S72KL;Use Procedure for Prepare=1;Auto Translate=True;Packet Size=4096;Workstation ID=DESKTOP-M8S72KL;Use Encryption for Data=False;Tag with column collation when possible=False|||select DEST1.[Record ID],&#xA;	DEST1.[File Number],&#xA;	DEST1.[Date of Report],&#xA;	DEST1.[Crime Date Time],&#xA;	DEST1.Crime,&#xA;	DEST1.[Reporting Area],&#xA;	DEST1.Neighborhood,&#xA;	DEST1.Location,&#xA;	DEST1.[File Number 1],&#xA;	DEST1.[File Number 2],&#xA;	DEST1.Replace &#xA;from DEST1" type="DateTime" />
+            <Field name="Crime Date Time" size="255" source="File: odb:Provider=SQLOLEDB.1;Integrated Security=SSPI;Persist Security Info=False;Initial Catalog=DataHouse;Data Source=DESKTOP-M8S72KL;Use Procedure for Prepare=1;Auto Translate=True;Packet Size=4096;Workstation ID=DESKTOP-M8S72KL;Use Encryption for Data=False;Tag with column collation when possible=False|||select DEST1.[Record ID],&#xA;	DEST1.[File Number],&#xA;	DEST1.[Date of Report],&#xA;	DEST1.[Crime Date Time],&#xA;	DEST1.Crime,&#xA;	DEST1.[Reporting Area],&#xA;	DEST1.Neighborhood,&#xA;	DEST1.Location,&#xA;	DEST1.[File Number 1],&#xA;	DEST1.[File Number 2],&#xA;	DEST1.Replace &#xA;from DEST1" type="V_WString" />
+            <Field name="Crime" size="255" source="File: odb:Provider=SQLOLEDB.1;Integrated Security=SSPI;Persist Security Info=False;Initial Catalog=DataHouse;Data Source=DESKTOP-M8S72KL;Use Procedure for Prepare=1;Auto Translate=True;Packet Size=4096;Workstation ID=DESKTOP-M8S72KL;Use Encryption for Data=False;Tag with column collation when possible=False|||select DEST1.[Record ID],&#xA;	DEST1.[File Number],&#xA;	DEST1.[Date of Report],&#xA;	DEST1.[Crime Date Time],&#xA;	DEST1.Crime,&#xA;	DEST1.[Reporting Area],&#xA;	DEST1.Neighborhood,&#xA;	DEST1.Location,&#xA;	DEST1.[File Number 1],&#xA;	DEST1.[File Number 2],&#xA;	DEST1.Replace &#xA;from DEST1" type="V_WString" />
+            <Field name="Reporting Area" source="File: odb:Provider=SQLOLEDB.1;Integrated Security=SSPI;Persist Security Info=False;Initial Catalog=DataHouse;Data Source=DESKTOP-M8S72KL;Use Procedure for Prepare=1;Auto Translate=True;Packet Size=4096;Workstation ID=DESKTOP-M8S72KL;Use Encryption for Data=False;Tag with column collation when possible=False|||select DEST1.[Record ID],&#xA;	DEST1.[File Number],&#xA;	DEST1.[Date of Report],&#xA;	DEST1.[Crime Date Time],&#xA;	DEST1.Crime,&#xA;	DEST1.[Reporting Area],&#xA;	DEST1.Neighborhood,&#xA;	DEST1.Location,&#xA;	DEST1.[File Number 1],&#xA;	DEST1.[File Number 2],&#xA;	DEST1.Replace &#xA;from DEST1" type="Double" />
+            <Field name="Neighborhood" size="255" source="File: odb:Provider=SQLOLEDB.1;Integrated Security=SSPI;Persist Security Info=False;Initial Catalog=DataHouse;Data Source=DESKTOP-M8S72KL;Use Procedure for Prepare=1;Auto Translate=True;Packet Size=4096;Workstation ID=DESKTOP-M8S72KL;Use Encryption for Data=False;Tag with column collation when possible=False|||select DEST1.[Record ID],&#xA;	DEST1.[File Number],&#xA;	DEST1.[Date of Report],&#xA;	DEST1.[Crime Date Time],&#xA;	DEST1.Crime,&#xA;	DEST1.[Reporting Area],&#xA;	DEST1.Neighborhood,&#xA;	DEST1.Location,&#xA;	DEST1.[File Number 1],&#xA;	DEST1.[File Number 2],&#xA;	DEST1.Replace &#xA;from DEST1" type="V_WString" />
+            <Field name="Location" size="255" source="File: odb:Provider=SQLOLEDB.1;Integrated Security=SSPI;Persist Security Info=False;Initial Catalog=DataHouse;Data Source=DESKTOP-M8S72KL;Use Procedure for Prepare=1;Auto Translate=True;Packet Size=4096;Workstation ID=DESKTOP-M8S72KL;Use Encryption for Data=False;Tag with column collation when possible=False|||select DEST1.[Record ID],&#xA;	DEST1.[File Number],&#xA;	DEST1.[Date of Report],&#xA;	DEST1.[Crime Date Time],&#xA;	DEST1.Crime,&#xA;	DEST1.[Reporting Area],&#xA;	DEST1.Neighborhood,&#xA;	DEST1.Location,&#xA;	DEST1.[File Number 1],&#xA;	DEST1.[File Number 2],&#xA;	DEST1.Replace &#xA;from DEST1" type="V_WString" />
+            <Field name="File Number 1" size="4" source="File: odb:Provider=SQLOLEDB.1;Integrated Security=SSPI;Persist Security Info=False;Initial Catalog=DataHouse;Data Source=DESKTOP-M8S72KL;Use Procedure for Prepare=1;Auto Translate=True;Packet Size=4096;Workstation ID=DESKTOP-M8S72KL;Use Encryption for Data=False;Tag with column collation when possible=False|||select DEST1.[Record ID],&#xA;	DEST1.[File Number],&#xA;	DEST1.[Date of Report],&#xA;	DEST1.[Crime Date Time],&#xA;	DEST1.Crime,&#xA;	DEST1.[Reporting Area],&#xA;	DEST1.Neighborhood,&#xA;	DEST1.Location,&#xA;	DEST1.[File Number 1],&#xA;	DEST1.[File Number 2],&#xA;	DEST1.Replace &#xA;from DEST1" type="V_WString" />
+            <Field name="File Number 2" size="5" source="File: odb:Provider=SQLOLEDB.1;Integrated Security=SSPI;Persist Security Info=False;Initial Catalog=DataHouse;Data Source=DESKTOP-M8S72KL;Use Procedure for Prepare=1;Auto Translate=True;Packet Size=4096;Workstation ID=DESKTOP-M8S72KL;Use Encryption for Data=False;Tag with column collation when possible=False|||select DEST1.[Record ID],&#xA;	DEST1.[File Number],&#xA;	DEST1.[Date of Report],&#xA;	DEST1.[Crime Date Time],&#xA;	DEST1.Crime,&#xA;	DEST1.[Reporting Area],&#xA;	DEST1.Neighborhood,&#xA;	DEST1.Location,&#xA;	DEST1.[File Number 1],&#xA;	DEST1.[File Number 2],&#xA;	DEST1.Replace &#xA;from DEST1" type="V_WString" />
+            <Field name="Replace" size="255" source="File: odb:Provider=SQLOLEDB.1;Integrated Security=SSPI;Persist Security Info=False;Initial Catalog=DataHouse;Data Source=DESKTOP-M8S72KL;Use Procedure for Prepare=1;Auto Translate=True;Packet Size=4096;Workstation ID=DESKTOP-M8S72KL;Use Encryption for Data=False;Tag with column collation when possible=False|||select DEST1.[Record ID],&#xA;	DEST1.[File Number],&#xA;	DEST1.[Date of Report],&#xA;	DEST1.[Crime Date Time],&#xA;	DEST1.Crime,&#xA;	DEST1.[Reporting Area],&#xA;	DEST1.Neighborhood,&#xA;	DEST1.Location,&#xA;	DEST1.[File Number 1],&#xA;	DEST1.[File Number 2],&#xA;	DEST1.Replace &#xA;from DEST1" type="V_WString" />
+          </RecordInfo>
+        </MetaInfo>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxDbFileInput" />
+    </Node>
+    <Node ToolID="2">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.AlteryxSelect.AlteryxSelect">
+        <Position x="198" y="114" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <OrderChanged value="False" />
+          <CommaDecimal value="False" />
+          <SelectFields>
+            <SelectField field="Crime" selected="True" />
+            <SelectField field="*Unknown" selected="False" />
+          </SelectFields>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxSelect" />
+    </Node>
+    <Node ToolID="3">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.AlteryxSelect.AlteryxSelect">
+        <Position x="198" y="222" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <OrderChanged value="False" />
+          <CommaDecimal value="False" />
+          <SelectFields>
+            <SelectField field="Neighborhood" selected="True" />
+            <SelectField field="*Unknown" selected="False" />
+          </SelectFields>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxSelect" />
+    </Node>
+    <Node ToolID="4">
+      <GuiSettings Plugin="AlteryxSpatialPluginsGui.Summarize.Summarize">
+        <Position x="342" y="114" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <SummarizeFields>
+            <SummarizeField field="Crime" action="GroupBy" rename="Crime" />
+          </SummarizeFields>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxSpatialPluginsEngine.dll" EngineDllEntryPoint="AlteryxSummarize" />
+    </Node>
+    <Node ToolID="5">
+      <GuiSettings Plugin="AlteryxSpatialPluginsGui.Summarize.Summarize">
+        <Position x="342" y="222" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <SummarizeFields>
+            <SummarizeField field="Neighborhood" action="GroupBy" rename="Neighborhood" />
+          </SummarizeFields>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxSpatialPluginsEngine.dll" EngineDllEntryPoint="AlteryxSummarize" />
+    </Node>
+    <Node ToolID="8">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.DbFileOutput.DbFileOutput">
+        <Position x="486" y="114" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <File MaxRecords="" FileFormat="18">odb:Provider=SQLOLEDB.1;Integrated Security=SSPI;Persist Security Info=False;Initial Catalog=DataHouse;Data Source=DESKTOP-M8S72KL;Use Procedure for Prepare=1;Auto Translate=True;Packet Size=4096;Workstation ID=DESKTOP-M8S72KL;Use Encryption for Data=False;Tag with column collation when possible=False|||Crim_Dim</File>
+          <Passwords />
+          <Disable>False</Disable>
+          <FormatSpecificOptions>
+            <TransactionSize>0</TransactionSize>
+            <IgnoreDropTableSQLErrors>False</IgnoreDropTableSQLErrors>
+            <PostSQL />
+            <TableStyle>Quoted</TableStyle>
+            <AppendMap>
+              <AppendMapping mode="Custom">
+                <Field Source="Crime" Dest="Crim_Name" />
+              </AppendMapping>
+            </AppendMap>
+            <PreSQL />
+            <TransactionMessages>False</TransactionMessages>
+            <OutputOption>Delete</OutputOption>
+          </FormatSpecificOptions>
+          <MultiFile value="False" />
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText>Source=DESKTOP-M8S72KL
+Catalog=DataHouse
+Query=Crim_Dim</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxDbFileOutput" />
+    </Node>
+    <Node ToolID="9">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.DbFileOutput.DbFileOutput">
+        <Position x="498" y="258" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <File MaxRecords="" FileFormat="18">odb:Provider=SQLOLEDB.1;Integrated Security=SSPI;Persist Security Info=False;Initial Catalog=DataHouse;Data Source=DESKTOP-M8S72KL;Use Procedure for Prepare=1;Auto Translate=True;Packet Size=4096;Workstation ID=DESKTOP-M8S72KL;Use Encryption for Data=False;Tag with column collation when possible=False|||Neighborhood_Dim</File>
+          <Passwords />
+          <Disable>False</Disable>
+          <FormatSpecificOptions>
+            <TransactionSize>0</TransactionSize>
+            <IgnoreDropTableSQLErrors>False</IgnoreDropTableSQLErrors>
+            <PostSQL />
+            <TableStyle>Quoted</TableStyle>
+            <AppendMap>
+              <AppendMapping mode="Custom">
+                <Field Source="Neighborhood" Dest="Neighborhood_Name" />
+              </AppendMapping>
+            </AppendMap>
+            <PreSQL />
+            <TransactionMessages>False</TransactionMessages>
+            <OutputOption>Delete</OutputOption>
+          </FormatSpecificOptions>
+          <MultiFile value="False" />
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText>Source=DESKTOP-M8S72KL
+Catalog=DataHouse
+Query=Neighborhood_Dim</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxDbFileOutput" />
+    </Node>
+  </Nodes>
+  <Connections>
+    <Connection>
+      <Origin ToolID="1" Connection="Output" />
+      <Destination ToolID="2" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="1" Connection="Output" />
+      <Destination ToolID="3" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="2" Connection="Output" />
+      <Destination ToolID="4" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="3" Connection="Output" />
+      <Destination ToolID="5" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="4" Connection="Output" />
+      <Destination ToolID="8" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="5" Connection="Output" />
+      <Destination ToolID="9" Connection="Input" />
+    </Connection>
+  </Connections>
+  <Properties>
+    <Memory default="True" />
+    <GlobalRecordLimit value="0" />
+    <TempFiles default="True" />
+    <Annotation on="True" includeToolName="False" />
+    <ConvErrorLimit value="10" />
+    <ConvErrorLimit_Stop value="False" />
+    <CancelOnError value="False" />
+    <DisableBrowse value="False" />
+    <EnablePerformanceProfiling value="False" />
+    <RunWithE2 value="True" />
+    <PredictiveToolsCodePage value="1252" />
+    <DisableAllOutput value="False" />
+    <ShowAllMacroMessages value="False" />
+    <ShowConnectionStatusIsOn value="True" />
+    <ShowConnectionStatusOnlyWhenRunning value="True" />
+    <ZoomLevel value="0" />
+    <LayoutType>Horizontal</LayoutType>
+    <MetaInfo>
+      <NameIsFileName value="True" />
+      <Name>New Workflow3</Name>
+      <Description />
+      <RootToolName />
+      <ToolVersion />
+      <ToolInDb value="False" />
+      <CategoryName />
+      <SearchTags />
+      <Author />
+      <Company />
+      <Copyright />
+      <DescriptionLink actual="" displayed="" />
+      <Example>
+        <Description />
+        <File />
+      </Example>
+      <WorkflowId value="cd2ab7b9-d8d7-439d-bfc2-58142a84ce40" />
+      <Telemetry>
+        <PreviousWorkflowId value="327fd229-dde2-4228-b4a8-ce03aca1a8b9" />
+        <OriginWorkflowId value="327fd229-dde2-4228-b4a8-ce03aca1a8b9" />
+      </Telemetry>
+    </MetaInfo>
+    <Events>
+      <Enabled value="True" />
+    </Events>
+  </Properties>
+</AlteryxDocument>
